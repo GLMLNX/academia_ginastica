@@ -21,7 +21,6 @@ public class AlunoDTO {
     @NotBlank
     @Size(min = 5,max = 50)
     private String bairro;
-    @NotBlank
-    @Past
+
     private LocalDate dataNascimento;
 }
